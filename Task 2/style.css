@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+    color: #ffffff;
+  }
+  
+  body {
+      background-color: #222222;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .cont {
+      display: flex;
+      width: 100%;
+      align-items: flex-end;
+    }
+    
+    nav {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 10px 0;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #333;
+      padding: 10px 20px;
+      border-right: 1px solid #ccc;
+    }
+    
+    nav a:last-child {
+      border-right: none;
+    }
+    
+    section {
+      width: 100%;
+      padding: 20px;
+      margin: 20px;
+      border: 1px solid #ccc;
+    }
+    
+    footer {
+      background-color: #333333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 45px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    
+    .fa:hover {
+      opacity: 0.7;
+    }
+    
+    .fa-linkedin {
+      background: #0a66c2;
+      color: white;
+    }
+    
+    .fa-envelope {
+      background: #cf5e20;
+      color: white;
+    }
+    
+    .fa-github {
+      background: #183153;
+      color: white;
+    }
+  
+    .extimg {
+      height: 200px;
+      width: 200px;
+      
+    }
+  
+    .proimg {
+      height: 150px;
+      width: 300px;
+    }
+  
+    a {
+      color: #17a2b8;
+    }
+  
+    #down {
+      width: 30px;
+      height: 30px;
+      filter: invert()
+    }
+  
+    .arrow-up {
+      width: 22px;
+      height: 22px;
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background-color: rgba(0,0,0,.7);
+      color: #fff;
+      text-align: center;
+      line-height: 1.4;
+      padding: 10px;
+      border-radius: 0;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    
+    .arrow-up:hover {
+      background-color: rgba(0,0,0,.7);
+    }
